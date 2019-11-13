@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd "$(dirname $0)"
+
+git add vox
+git commit -m "$(date)"
+git push
+
